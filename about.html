@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dinosaur Catalog</title>
+  
+  <link href="vendor/bootstrap.min.css" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="trex_sm.png" alt="" width="135"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CatalogList.html">Catalog List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="velociraptor.html">Velociraptor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="thero.html">Therizinosaurus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trex.html">T-Rex</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="maia.html">Maiasaura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <h1 class="row">Dinosaurs</h1>
+
+    <div class="row">
+      <aside class="col-md-5 col-lg-4">
+
+        <img class="img-fluid" src="collage.png" alt="Various dinosaur fossils">
+
+      </aside>
+
+
+      <main id="aboutpage" class="col-md-7 col-lg-4">
+
+        <h4> Site Author: Kim Simonik</h4>
+        <h4 id="email"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-mouse2" viewBox="0 0 16 16">
+            <path
+              d="M3 5.188C3 2.341 5.22 0 8 0s5 2.342 5 5.188v5.625C13 13.658 10.78 16 8 16s-5-2.342-5-5.188V5.189zm4.5-4.155C5.541 1.289 4 3.035 4 5.188V5.5h3.5V1.033zm1 0V5.5H12v-.313c0-2.152-1.541-3.898-3.5-4.154zM12 6.5H4v4.313C4 13.145 5.81 15 8 15s4-1.855 4-4.188V6.5z" />
+          </svg> <a href="mailto:kimsimonik@gmail.com">Contact Me</a></h4>
+        <h4>All images and text credited.</h4>
+
+
+      </main>
+
+
+      <section class="col-md-12 col-lg-4">
+
+        <h4 class="formhead">Please fill out a quick Survery!</h4>
+        <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/xknlqlnq"
+          method="post">
+
+          <div class="form-group">
+            <label for="full-name">Name</label>
+            <input type="text" name="name" id="full-name" placeholder="Name" required="">
+          </div>
+          <div class="form-group">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          </div>
+          <div class="form-group">
+            <label for="timely">1. This website was easy to navigate and use.</label>
+            <select name="timely" id="timely" required="">
+              <option value="" selected="" disabled="">Choose</option>
+              <option value="1">Strongly Agree</option>
+              <option value="3">Agree</option>
+              <option value="5">Neutral</option>
+              <option value="7">Disagree</option>
+              <option value="9">Strongly Disagree</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="timely">2. I enjoyed learning about dinosaurs.</label>
+            <select name="quality" id="quality" required="">
+              <option value="" selected="" disabled="">Choose</option>
+              <option value="1">Strongly Agree</option>
+              <option value="3">Agree</option>
+              <option value="5">Neutral</option>
+              <option value="7">Disagree</option>
+              <option value="9">Strongly Disagree</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Additional Comments</label>
+            <textarea rows="3" name="message" id="message" placeholder="Please add any additional comments here."
+              required=""></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+
+
+
+      </section>
+    </div>
+
+
+  </div>
+  <footer class="row">
+    <div class="accordion" id="accordionFooter">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Image Attribution
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFooter">
+          <div class="accordion-body">
+
+
+            <p>
+              <a href="https://www.vecteezy.com/free-vector/dinosaur">Dinosaur Vectors by Vecteezy</a>
+            </p>
+
+
+            <p>Top Skeleton Image by Thomas Quine, CC BY 2.0, via
+              Wikimedia Commons
+            </p>
+            <p>Collage Image by Various; see individual pictures, CC BY-SA 3.0 via Wikimedia Commons</p>
+          </div>
+        </div>
+
+
+
+
+
+
+
+      </div>
+    
+    </div>
+
+
+
+  </footer>
+
+
+
+  
+ <script src="vendor/bootstrap.bundle.min.js"> </script>
+</body>
+
+</html>
